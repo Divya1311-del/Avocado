@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><style>
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height:500px;
+  width:100%;
+}
+    .navbar-section{  width:85%;
+  height:80px;
+  background-color: black;
+  display:flex;
+  border:1px solid white;
+  border-radius:20px;
+  margin:20px 20px 20px 100px;
+ 
+}
+
+.nav-left{
+  height:100px;
+  width:200px;
+  display: flex;
+  
+}
+.nav-left img{
+  height:75px;
+  width:80px;
+  margin:0px;
+  border-radius: 15px;
+  margin-left:20px;
+}
+.nav-mid{
+  height:100px;
+  width:800px;
+
+}
+.nav-mid ul{
+  width:800px;
+  margin:25px;
+  display:flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-mid li{
+ 
+  font-weight: bold;
+  justify-content: space-around;
+}
+li a{
+  color:white;
+  font-size:15px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+li a:hover{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:aqua;
+  
+
+}
+
+.nav-right button{
+  height:40px;
+  width:120px;
+  border-radius: 10px;
+ color:red;
+ background-color: white;
+  margin:15px 10px 10px 50px;
+  font-weight: bold;
+}
+.nav-right button:hover{
+  height:40px;
+  width:120px;
+  border-radius: 10px;
+  margin:15px 10px 10px 50px;
+  font-weight: bold;
+  color:black;
+  background-color: aqua;
+}
+.nav-right a{
+  text-decoration: none;
+  color:red;
+  
+
+}
+.nav-right a:hover{
+  text-decoration: none;
+  color:black;
+  background-color: aqua;
+ 
+  
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.nav-item1 .nav-left{
+  justify-content: space-around;
+}
+.navbar-section .navbar>li>a{
+color:white;
+text-transform: uppercase;
+}
+.about-section{
+    height:719px;
+    width:100%;
+    display: flex;     
+}
+.about-left img{
+height:510px;
+width:650px;
+margin:5rem 2rem 6rem 2rem;
+}
+.about-right h1{
+margin:5.5rem 4rem 0rem 1rem;
+
+}
+.about-right p{
+font-size:25px;
+height:120px;
+width:700px;
+margin:1rem 0 0 1rem;  
+}
+.about-right button{
+margin:0rem 36rem 0rem 1rem;
+}
+.about-right h2{
+margin:10px 0 30px 10px;
+}
+
+.box1{
+height:250px;
+width:240px;
+display: inline-table;
+border:2px solid black;
+margin:5px 5px 5px 5px;
+background-color: white;
+}
+.box1 img{
+margin:1rem 1.5rem 0 3rem;
+height:100px;
+width:100px;
+}
+.box1 h3{
+margin-left:30px;
+color:brown;
+}
+.box1 p{
+height:60px;
+width:200px;
+font-size: 20px;
+}
+@media (max-width:2008px){
+	
+	.nav ul{
+		margin-right: 10px;
+        width: 100%;
+	}
+	.nav a{
+		font-size: 17px;
+	}
+}@media (max-width:509px){
+	body{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin:0px;
+        height:1250px;
+        width:500px;
+    }
+    .navbar-section{
+      width:500px;
+      height:230px;
+      background-color: transparent;
+      display:flex;
+      flex-direction: column;
+      border:1px solid white;
+      border-radius:0px;
+      margin:0px;
+    }
+    .nav-left{
+      height:100px;
+      width:100px;
+      display: flex;
+    }
+    .nav-left img{
+      height:75px;
+      width:80px;
+      margin:0px;
+      border-radius: 15px;
+      margin-left:240px;
+    }
+    .nav-mid{
+      height:50px;
+      width:380px;
+      margin:10;
+      padding:0;
+    }
+    .nav-mid ul{
+      width:380px;
+      margin:5px;
+      display:flex;
+     margin:10px;
+      list-style: none;
+    }
+    .nav-mid li{
+      font-weight: bold;
+      justify-content: space-around;
+    }
+    li a{
+      color:black;
+      font-size:15px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    li a:hover{
+      text-decoration: none;
+      text-transform: uppercase;
+      color:aqua;
+    }
+    .nav-right{
+      height:100px;
+      width:100px;
+      justify-content: space-between;
+      margin:10px 20px 20px 270px;
+    }
+    .nav-item1 .nav-left{
+      justify-content: space-around;
+    }
+    .navbar-section .navbar>li>a{
+    color:white;
+    text-transform: uppercase;
+    }
+    .nav-right button{
+      height:40px;
+      width:120px;
+      border-radius: 10px;
+      margin:10px;
+      font-weight: bold;
+    }
+    .nav-right button:hover{
+      height:40px;
+      width:120px;
+      border-radius: 10px;
+      margin:10px;
+      font-weight: bold;
+      color:black;
+      background-color: aqua;
+    }
+    .nav-right a{
+      text-decoration: none;
+      color:red;
+    }
+    .nav-right a:hover{
+      text-decoration: none;
+      color:black;
+      background-color: aqua;
+    }
+    .dropbtn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown a{
+      text-decoration: none;
+      color:black;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: transparent;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color:black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {background-color: black;
+    }
+    .dropdown:hover .dropdown-content {display: block;
+    text-decoration: none;}
+    
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    .about-section{
+    height:719px;
+    width:500px;
+    display: flex; 
+    flex-direction: column;    
+}
+.about-left img{
+height:300px;
+width:370px;
+margin:5rem 2rem 1rem 2rem;
+}
+.about-right h1{
+margin:5.5rem 4rem 0rem 1rem;
+
+
+}
+.about-right p{
+font-size:25px;
+height:200px;
+width:400px;
+margin:1rem 0 0 1rem;  
+}
+
+.about-right h2{
+margin:10px 0 20px 10px;
+}
+
+.box1{
+height:250px;
+width:240px;
+display: inline-table;
+border:2px solid black;
+margin:5px 5px 5px 5px;
+background-color: white;
+}
+.box1 img{
+margin:1rem 1.5rem 0 3rem;
+height:100px;
+width:100px;
+}
+.box1 h3{
+margin-left:30px;
+color:brown;
+
+}
+.box1 p{
+height:60px;
+width:200px;
+font-size: 20px;
+}}</style>
+<body>
+    <nav class="navbar-section navbar-fixed-top" style="border-width: 2px; border-radius: 35px;">
+        <div class="nav-left"><img src="img/logo.png" alt="img"></div>
+        <div class="nav-mid">
+          <ul>
+            
+           <li class="active"><a href="index2.html">Home</a></li>
+           <li><a href="#second-section"><div class="dropdown">Menu
+    
+            <div id="myDropdown" class="dropdown-content">
+              <a href="breakfast&brunch.html">Breakfast</a>
+              <a href="maincourse.html">MainCourse</a>
+              <a href="deserts.html">Deserts</a>
+              <a href="drinks.html">Drinks</a>
+              
+            </div></li>
+           <li><a href="services.html">Services</a></li>
+           <li><a href="contact.html">Contact</a></li>
+           <li><a href="about.html">About Us</a></li></div>
+           <div class="nav-right"><button><a href="">Chatbot</a></button></div>
+          
+      
+          </ul>
+      </div>
+    </nav>
+    <div class="about-section" id="about-section">
+        <div class="about-left">
+        <img src="img/slide1.jpg" alt="slide"></div>
+        <div class="about-right">
+        <h1>WE MAKE GOOD AND TASTY FOOD</h1>
+        <p>Mexican dishes are known for their bold and spicy flavors, colorful presentation, and the use of fresh ingredients such as avocado, tomatoes, chilies, and corn.</p>
+        <h2>Why choose us?</h2>
+        <div class="box1"><img src="img/delicious food.png" alt="delicious food">
+            <h3>Delicious food</h3>
+            <p>Food is flavorful,well prepared.</p>
+        </div>
+       
+        <div class="box1"><img src="img/tasty food.png" alt="tasty food">
+            <h3>Tasty food</h3>
+            <p>Tastes great,Yummy.</p></div>
+        <div class="box1"><img src="img/offer.png" alt="offers">
+            <h3>Offers</h3>
+            <p>Offers available.</p></div>
+        </div></div> 
+</body>
+</html>
