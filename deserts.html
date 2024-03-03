@@ -175,20 +175,35 @@ text-transform: uppercase;
         .box h4{
             height:30px;
             width:200px;
-            margin:0px 20px 20px 90px;
+            margin:0px 20px 10px 120px;
 
         }
         .box #small{
             height:20px;
             width:200px;
-            margin:0px 20px 20px 140px;
+            margin:0px 20px 10px 140px;
         }
         .box #big{
             height:30px;
             width:300px;
-            margin:0px 20px 20px 60px;
+            margin:0px 20px 10px 90px;
         }
-        .box button{
+        .images{
+  height:30px;
+  width:150px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center ;
+  margin-left: 120px;
+}
+.images img{
+  height:20px;
+  width:20px;
+  border-radius: 0;
+  margin:0;
+}
+.box button{
   border-radius: 15px;
   height:40px;
   width:150px;
@@ -211,7 +226,7 @@ text-transform: uppercase;
   .box p{
     font-size:20px;
     font-weight: bold;
-    margin:10px 10px 10px 180px;
+    margin:10px 10px 10px 10px;
   }    
   @media (max-width:2008px){
 	
@@ -231,11 +246,11 @@ text-transform: uppercase;
     }
     .navbar-section{
       width:500px;
-      height:230px;
+      height:350px;
       background-color: transparent;
       display:flex;
       flex-direction: column;
-      border:1px solid white;
+      border:1px solid transparent;
       border-radius:0px;
       margin:0px;
     }
@@ -252,9 +267,9 @@ text-transform: uppercase;
       margin-left:240px;
     }
     .nav-mid{
-      height:50px;
+      height:200px;
       width:380px;
-      margin:10;
+      margin-left:190px;
       padding:0;
     }
     .nav-mid ul{
@@ -284,7 +299,7 @@ text-transform: uppercase;
       height:100px;
       width:100px;
       justify-content: space-between;
-      margin:10px 20px 20px 270px;
+      margin:10px 20px 20px 220px;
     }
     .nav-item1 .nav-left{
       justify-content: space-around;
@@ -336,7 +351,7 @@ text-transform: uppercase;
     .dropdown-content {
       display: none;
       position: absolute;
-      background-color: transparent;
+      background-color: gray;
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
@@ -367,8 +382,8 @@ width:200px;
 }
 .box h4{
 height:30px;
- width:200px;
-margin:0px 20px 20px 90px;
+width:200px;
+margin:0px 20px 10px 120px;
 
 }
 .box #small{
@@ -379,7 +394,22 @@ height:20px;
 .box #big{
  height:30px;
  width:300px;
- margin:0px 20px 20px 60px;
+ margin:0px 20px 10px 90px;
+}
+.images{
+  height:30px;
+  width:150px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center ;
+  margin-left: 120px;
+}
+.images img{
+  height:20px;
+  width:20px;
+  border-radius: 0;
+  margin:0;
 }
 .box button{
   border-radius: 15px;
@@ -402,7 +432,7 @@ height:20px;
   .box p{
     font-size:20px;
     font-weight: bold;
-    margin:10px 10px 10px 180px;
+    margin:10px 10px 10px 10px;
   }}
     </style>
 </head>
@@ -428,27 +458,27 @@ height:20px;
            <li><a href="about.html">About Us</a></li></div>
           
           </div>
-          <div class="nav-right"><button><a href="">Chatbot</a></button></div>
+          <div class="nav-right"><button><a href="chatbot.html">Chatbot</a></button></div>
           </ul>
       </div>
-    </nav><div class="bb"><div class="box"><img src="img/desert1.jpg" alt="img"><h4 id="big">Tres Leches Coconut Cupcake</h4><p>&#8377;70</p><button onclick="myFunction()">Order Now</button></div>
+    </nav><div class="bb"><div class="box"><img src="img/desert1.jpg" alt="img"><h4 id="big">Tres Leches Coconut Cupcake</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;70</p></div><button onclick="myFunction()">Order Now</button></div>
      
-        <div class="box"><img src="img/desert3.jpg" alt="img"><h4>Churro Pancakes</h4><p>&#8377;70</p><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/desert3.jpg" alt="img"><h4>Churro Pancakes</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;70</p></div><button onclick="myFunction()">Order Now</button></div>
         
-        <div class="box"><img src="img/desert5.jpg" alt="img"><h4 id="big">Margarita Cheesecake Mousse</h4><p>&#8377;100</p><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/desert5.jpg" alt="img"><h4 id="big">Margarita Cheesecake Mousse</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;100</p></div><button onclick="myFunction()">Order Now</button></div>
       
-        <div class="box"> <img src="img/desert7.jpg" alt="img"><h4>Margarita Pie</h4><p>&#8377;100</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"> <img src="img/desert8.jpg" alt="img"><h4 id="big">Mexican Hot Chacolate Pie</h4><p>&#8377;70</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"> <img src="img/desert9.jpg" alt="img"><h4>Churro Cookies</h4><p>&#8377;50</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/desert10.jpg" alt="img"><h4 id="small">Capirotada</h4><p>&#8377;50</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/desert11.jpg" alt="img"><h4 id="small">Polvorones</h4><p>&#8377;70</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/desert12.jpg" alt="img"><h4 id="big">Sopapilla Cheesecake Bars</h4><p>&#8377;100</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"> <img src="img/desert13.jpg" alt="img"><h4 id="small">Concha Bread</h4><p>&#8377;50</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/desert14.jpg" alt="img"><h4>Homemade Churros</h4><p>&#8377;60</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/desert15.jpg" alt="img"><h4 id="small">Chacoflan</h4><p>&#8377;70</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/desert16.jpg" alt="img"><h4>Mangonada Sorbet</h4><p>&#8377;60</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/desert17.jpg" alt="img"><h4>Tres Leches Cake</h4><p>&#8377;100</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/desert18.jpg" alt="img"><h4 id="small">Conchas</h4><p>&#8377;50</p><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"> <img src="img/desert7.jpg" alt="img"><h4>Margarita Pie</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;100</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"> <img src="img/desert8.jpg" alt="img"><h4 id="big">Mexican Hot Chacolate Pie</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;70</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"> <img src="img/desert9.jpg" alt="img"><h4>Churro Cookies</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;50</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/desert10.jpg" alt="img"><h4 id="small">Capirotada</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;50</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/desert11.jpg" alt="img"><h4 id="small">Polvorones</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;70</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/desert12.jpg" alt="img"><h4 id="big">Sopapilla Cheesecake Bars</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;100</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"> <img src="img/desert13.jpg" alt="img"><h4 id="small">Concha Bread</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;50</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/desert14.jpg" alt="img"><h4>Homemade Churros</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;60</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/desert15.jpg" alt="img"><h4 id="small">Chacoflan</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;70</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/desert16.jpg" alt="img"><h4>Mangonada Sorbet</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;60</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/desert17.jpg" alt="img"><h4>Tres Leches Cake</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;100</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/desert18.jpg" alt="img"><h4 id="small">Conchas</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;50</p></div><button onclick="myFunction()">Order Now</button></div>
         
 </div>
 <script>
