@@ -160,37 +160,48 @@ text-decoration: none;}
 color:white;
 text-transform: uppercase;
 }
-        .bb{
-            display:inline-block;
-        }
-        
-        .box{
-            height:300px;
-            width:400px;
-        }
-        .box img{
-            height:200px;
-            width:200px;
-            margin:20px 85px 10px 100px;
-        }
-        .box h5{
-            height:30px;
-            width:250px;
-            margin:0px 20px 20px 90px;
-            font-size: 20px;
-
-        }
-        .box #small{
-            height:20px;
-            width:200px;
-            margin:0px 20px 20px 140px;
-        }
-        .box #big{
-            height:30px;
-            width:320px;
-            margin:0px 10px 20px 30px;
-        }
-        .box button{
+  .bb{
+  display:inline-block;
+  }      
+  .box{
+    height:300px;
+    width:400px;
+   }
+   .box img{
+    height:200px;
+    width:200px;
+    margin:20px 85px 10px 100px;
+  }  .box h4{
+   height:30px;
+   width:250px;
+   margin:0px 20px 10px 120px;
+  }
+  .box #small{
+   height:20px;
+   width:200px;
+   margin:0px 20px 10px 140px;
+  }
+  .box #big{
+   height:30px;
+   width:320px;
+   margin:0px 10px 10px 80px;
+   }
+.images{
+  height:30px;
+  width:150px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center ;
+  margin-left: 120px;
+}
+.images img{
+  height:20px;
+  width:20px;
+  border-radius: 0;
+  margin:0;
+}
+  .box button{
   border-radius: 15px;
   height:40px;
   width:150px;
@@ -212,7 +223,7 @@ text-transform: uppercase;
   .box p{
     font-size:20px;
     font-weight: bold;
-    margin:10px 10px 10px 180px;
+    margin:10px 10px 10px 10px;
   }       
   @media (max-width:2008px){
 	
@@ -232,11 +243,11 @@ text-transform: uppercase;
     }
     .navbar-section{
       width:500px;
-      height:230px;
+      height:350px;
       background-color: transparent;
       display:flex;
       flex-direction: column;
-      border:1px solid white;
+      border:1px solid transparent;
       border-radius:0px;
       margin:0px;
     }
@@ -253,9 +264,9 @@ text-transform: uppercase;
       margin-left:240px;
     }
     .nav-mid{
-      height:50px;
+      height:200px;
       width:380px;
-      margin:10;
+      margin-left:190px;
       padding:0;
     }
     .nav-mid ul{
@@ -266,6 +277,7 @@ text-transform: uppercase;
       list-style: none;
     }
     .nav-mid li{
+      margin:10px;
       font-weight: bold;
       justify-content: space-around;
     }
@@ -285,7 +297,7 @@ text-transform: uppercase;
       height:100px;
       width:100px;
       justify-content: space-between;
-      margin:10px 20px 20px 270px;
+      margin:10px 20px 20px 220px;
     }
     .nav-item1 .nav-left{
       justify-content: space-around;
@@ -337,7 +349,7 @@ text-transform: uppercase;
     .dropdown-content {
       display: none;
       position: absolute;
-      background-color: transparent;
+      background-color: gray;
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
@@ -369,18 +381,33 @@ width:200px;
 .box h4{
 height:30px;
  width:200px;
-margin:0px 20px 20px 90px;
+margin:0px 20px 10px 120px;
 
 }
 .box #small{
 height:20px;
  width:200px;
- margin:0px 20px 20px 140px;
+ margin:0px 20px 10px 140px;
         }
 .box #big{
  height:30px;
  width:300px;
- margin:0px 20px 20px 60px;
+ margin:0px 20px 10px 90px;
+}
+.images{
+  height:30px;
+  width:150px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center ;
+  margin-left: 120px;
+}
+.images img{
+  height:20px;
+  width:20px;
+  border-radius: 0;
+  margin:0;
 }
 .box button{
   border-radius: 15px;
@@ -403,7 +430,7 @@ height:20px;
   .box p{
     font-size:20px;
     font-weight: bold;
-    margin:10px 10px 10px 180px;
+    margin:10px 10px 10px 10px;
   }}
     </style>
 </head>
@@ -429,27 +456,27 @@ height:20px;
            <li><a href="about.html">About Us</a></li></div>
           
           </div>
-          <div class="nav-right"><button><a href="">Chatbot</a></button></div>
+          <div class="nav-right"><button><a href="chatbot.html">Chatbot</a></button></div>
           </ul>
       </div>
-    </nav><div class="bb"><div class="box"><img src="img/main1.jpg" alt="img"><h5>Salsa Chicken Enchiladas</h5><p>&#8377;80</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/main2.jpg" alt="img"><h5>Crockpot Green Chili Chicken Enchilada Soup</h5><p>&#8377;100</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/main3.jpg" alt="img"><h5>Grilled Street Tacos</h5><p>&#8377;80</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/main4.jpg" alt="img"><h5 id="small">Mexican Quinoa</h5><p>&#8377;120</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/main5.jpg" alt="img"><h5 id="big">One Pot Fiesta Chicken & Rice</h5><p>&#8377;100</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/main6.jpg" alt="img"><h5>Mexican Bean and Cheese Sandwich</h5><p>&#8377;80</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"> <img src="img/main7.jpg" alt="img"><h5 id="small">Pollo Pibil</h5><p>&#8377;150</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"> <img src="img/main8.jpg" alt="img"><h5>Chicken with Puebla-style Mole Sauce</h5><p>&#8377;150</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"> <img src="img/main9.jpg" alt="img"><h5>Chicken and Potato Stew</h5><p>&#8377;100</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/main10.jpg" alt="img"><h5>Chile-Spiced Grilled Chicken</h5><p>&#8377;100</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/main11.jpg" alt="img"><h5>Tacos de Carne Asada</h5><p>&#8377;80</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/break9.jpg" alt="img"><h5>Tacos with Shredded chicken</h5><p>&#8377;80</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"> <img src="img/main13.jpg" alt="img"><h5>Mexican Noodle Casserole</h5><p>&#8377;80</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/main14.jpg" alt="img"><h5 id="big">Slow Cooker Mexican Quinoa Bake</h5><p>&#8377;150</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/main15.jpg" alt="img"><h5 id="big">Oaxacan Red Chile Enchiladas</h5><p>&#8377;150</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/main16.jpg" alt="img"><h5>Light Chicken enchiladas</h5><p>&#8377;100</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/main17.jpg" alt="img"><h5 id="small">Choriqueso</h5><p>&#8377;200</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/main18.jpg" alt="img"><h5 id="big">black Bean Quinoa Stuffed Zucchini</h5><p>&#8377;150</p><button onclick="myFunction()">Order Now</button></div>
+    </nav><div class="bb"><div class="box"><img src="img/main1.jpg" alt="img"><h4 id="big">Salsa Chicken Enchiladas</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;80</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/main2.jpg" alt="img"><h4 id="big">Crockpot Green Chili Chicken Enchilada Soup</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;100</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/main3.jpg" alt="img"><h4>Grilled Street Tacos</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;80</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/main4.jpg" alt="img"><h4 id="small">Mexican Quinoa</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;120</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/main5.jpg" alt="img"><h4 id="big">One Pot Fiesta Chicken & Rice</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;100</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/main6.jpg" alt="img"><h4>Mexican Bean and Cheese Sandwich</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;80</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"> <img src="img/main7.jpg" alt="img"><h4 id="small">Pollo Pibil</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;150</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"> <img src="img/main8.jpg" alt="img"><h4  id="big">Chicken with Puebla-style Mole Sauce</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;150</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"> <img src="img/main9.jpg" alt="img"><h4>Chicken and Potato Stew</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;100</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/main10.jpg" alt="img"><h4>Chile-Spiced Grilled Chicken</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;100</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/main11.jpg" alt="img"><h4>Tacos de Carne Asada</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;80</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/break9.jpg" alt="img"><h4 id="big">Tacos with Shredded chicken</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;80</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"> <img src="img/main13.jpg" alt="img"><h4 id="big">Mexican Noodle Casserole</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;80</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/main14.jpg" alt="img"><h4 id="big">Slow Cooker Mexican Quinoa Bake</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;150</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/main15.jpg" alt="img"><h4 id="big">Oaxacan Red Chile Enchiladas</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;150</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/main16.jpg" alt="img"><h4 id="big">Light Chicken enchiladas</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;100</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/main17.jpg" alt="img"><h4 id="small">Choriqueso</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;200</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/main18.jpg" alt="img"><h4 id="big">black Bean Quinoa Stuffed Zucchini</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;150</p></div><button onclick="myFunction()">Order Now</button></div>
         
 </div>
 <script>
