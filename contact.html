@@ -14,9 +14,6 @@
         background-repeat: no-repeat;
         background-size: cover;
       }
-     
-      
- 
  .navbar-section{
   width:85%;
   height:80px;
@@ -25,9 +22,7 @@
   border:1px solid white;
   border-radius:20px;
   margin:20px 20px 20px 100px;
- 
 }
-
 .nav-left{
   height:100px;
   width:300px;
@@ -63,14 +58,11 @@ li a{
   font-size:15px;
   text-transform: uppercase;
   text-decoration: none;
-
 }
-
 li a:hover{
   text-decoration: none;
   text-transform: uppercase;
   color:aqua;
-
 }
 .nav-right{
   height:100px;
@@ -97,15 +89,13 @@ li a:hover{
 .nav-right a{
   text-decoration: none;
   color:red;
-  
-
+  font-weight: bold;
 }
 .nav-right a:hover{
   text-decoration: none;
   color:black;
   background-color: aqua;
- 
-  
+  font-weight: bold;
 }
 
 .nav-item1 .nav-left{
@@ -189,10 +179,10 @@ text-transform: uppercase;
      height:80px;
  }
 input:hover{
-    background-color:coral ;
+    background-color:transparent;
     border:none;
-    border-bottom: 1px solid black;
-    border-radius: 0;
+    border-bottom: 2px solid white;
+    border-radius: 0px;/**/
 }
 #submit{
     height:40px;
@@ -225,19 +215,14 @@ input:hover{
         margin:0px;
         height:1000px;
         width:500px;
-        
-    
     }
-
-
-
     .navbar-section{
       width:500px;
-      height:230px;
+      height:350px;
       background-color: transparent;
       display:flex;
       flex-direction: column;
-      border:1px solid white;
+      border:1px solid transparent;
       border-radius:0px;
       margin:0px;
     }
@@ -251,23 +236,25 @@ input:hover{
       width:80px;
       margin:0px;
       border-radius: 15px;
-      margin-left:240px;
+      margin-left:200px;
     }
     .nav-mid{
-      height:50px;
+      height:200px;
       width:380px;
-      margin:10;
+      margin-left:150px;
       padding:0;
     }
     .nav-mid ul{
       width:380px;
       margin:5px;
       display:flex;
-     margin:10px;
+      flex-direction: column;
+     margin:20px;
       list-style: none;
     }
     .nav-mid li{
       font-weight: bold;
+      margin:10px;
       justify-content: space-around;
     }
     li a{
@@ -286,7 +273,7 @@ input:hover{
       height:100px;
       width:100px;
       justify-content: space-between;
-      margin:10px 20px 20px 270px;
+      margin:10px 20px 20px 190px;
     }
     .nav-item1 .nav-left{
       justify-content: space-around;
@@ -295,6 +282,7 @@ input:hover{
     color:white;
     text-transform: uppercase;
     }
+    
     .nav-right button{
       height:40px;
       width:120px;
@@ -338,7 +326,7 @@ input:hover{
     .dropdown-content {
       display: none;
       position: absolute;
-      background-color: transparent;
+      background-color: gray;
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
@@ -356,7 +344,6 @@ input:hover{
     
     .dropdown:hover .dropbtn {background-color: #3e8e41;}
 .ContactUs{
-
 height:550px;
 width:500px;
 padding-left:25px;
@@ -366,8 +353,6 @@ flex-direction: column;
 background-image:url(img/mobile.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-
-
 }
 
 .name{
@@ -412,7 +397,6 @@ width:150px;
 border-radius: 15px;
 color:red;
 font-size:20px;
-
 }
 }
 </style>
@@ -422,31 +406,23 @@ font-size:20px;
         <div class="nav-left"><img src="img/logo.png" alt="img"></div></div>
         <div class="nav-mid">
           <ul>
-            
            <li class="active"><a href="index2.html">Home</a></li>
            <li><a href="#second-section"><div class="dropdown">Menu
-    
             <div id="myDropdown" class="dropdown-content">
               <a href="breakfast&brunch.html">Breakfast</a>
               <a href="maincourse.html">MainCourse</a>
               <a href="deserts.html">Deserts</a>
               <a href="drinks.html">Drinks</a>
-              
             </div></li>
            <li><a href="services.html">Services</a></li>
            <li><a href="contact.html">Contact</a></li>
            <li><a href="about.html">About Us</a></li></div>
-           <div class="nav-right"><button><a href="">Chatbot</a></button></div>
-          
-      
+           <div class="nav-right"><button><a href="chatbot.html">Chatbot</a></button></div>
           </ul>
       </div>
     </nav>
     <form action="" class="ContactUs"><div class="contact-left">
-         
-            <h1 style="color:rgb(251, 243, 243)"; text-align="center";>ContactUs</h1>
-           
-            
+            <h1 style="color:rgb(251, 243, 243)"; text-align="center";>ContactUs</h1> 
             <div class="name">
             <label for="" id="name">Name</label><br></div>
             <input type="name" name="" id="forminput" required><br><br>
@@ -454,7 +430,7 @@ font-size:20px;
             <input type="email" name="" id="forminput" required>
             <br><br>
             <label for="" id="name">Phone</label><br>
-            <input type="phone" name="" id="phone" placeholder="Phone" required>
+            <input type="phone" name="" id="phone"  required>
             <br><br>
             <label for="" id="name">Write a message</label><br>
             <input type="write a message" class="msg" id="forminput">
@@ -462,7 +438,5 @@ font-size:20px;
             <button id="submit">submit</button>
             </div>
     </form>
-   
-
 </body>
 </html>
