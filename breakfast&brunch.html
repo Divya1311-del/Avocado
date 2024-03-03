@@ -176,18 +176,18 @@ width:200px;
 .box h4{
 height:30px;
  width:200px;
-margin:0px 20px 20px 90px;
+margin:0px 20px 0px 120px;
 
 }
 .box #small{
 height:20px;
  width:200px;
- margin:0px 20px 20px 140px;
+ margin:0px 20px 0px 140px;
         }
 .box #big{
  height:30px;
  width:300px;
- margin:0px 20px 20px 60px;
+ margin:0px 20px 0px 60px;
 }
 .box button{
   border-radius: 15px;
@@ -206,11 +206,27 @@ height:20px;
   margin:10px 10px 20px 120px;
   
 }
+.images{
+  height:30px;
+  width:150px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center ;
+  margin-left: 120px;
+}
+.images img{
+  height:20px;
+  width:20px;
+  border-radius: 0;
+  margin:0;
+}
   
   .box p{
     font-size:20px;
     font-weight: bold;
-    margin:10px 10px 10px 180px;
+    margin-left:30px;
+    
   }   
   @media (max-width:2008px){
 	
@@ -230,11 +246,11 @@ height:20px;
     }
     .navbar-section{
       width:500px;
-      height:230px;
+      height:350px;
       background-color: transparent;
       display:flex;
       flex-direction: column;
-      border:1px solid white;
+      border:1px solid transparent;
       border-radius:0px;
       margin:0px;
     }
@@ -251,20 +267,22 @@ height:20px;
       margin-left:240px;
     }
     .nav-mid{
-      height:50px;
+      height:200px;
       width:380px;
-      margin:10;
+      margin-left:190px;
       padding:0;
     }
     .nav-mid ul{
       width:380px;
       margin:5px;
       display:flex;
+      flex-direction: column;
      margin:10px;
       list-style: none;
     }
     .nav-mid li{
       font-weight: bold;
+      margin:10px;
       justify-content: space-around;
     }
     li a{
@@ -283,7 +301,7 @@ height:20px;
       height:100px;
       width:100px;
       justify-content: space-between;
-      margin:10px 20px 20px 270px;
+      margin:10px 20px 20px 220px;
     }
     .nav-item1 .nav-left{
       justify-content: space-around;
@@ -335,7 +353,7 @@ height:20px;
     .dropdown-content {
       display: none;
       position: absolute;
-      background-color: transparent;
+      background-color: gray;
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
@@ -367,8 +385,23 @@ width:200px;
 .box h4{
 height:30px;
  width:200px;
-margin:0px 20px 20px 90px;
+margin:0px 20px 0px 120px;
 
+}
+.images{
+  height:30px;
+  width:150px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center ;
+  margin-left: 120px;
+}
+.images img{
+  height:20px;
+  width:20px;
+  border-radius: 0;
+  margin:0;
 }
 .box #small{
 height:20px;
@@ -378,7 +411,7 @@ height:20px;
 .box #big{
  height:30px;
  width:300px;
- margin:0px 20px 20px 60px;
+ margin:0px 20px 20px 90px;
 }
 .box button{
   border-radius: 15px;
@@ -395,13 +428,11 @@ height:20px;
   background-color:white ;
   color:red;
   margin:10px 10px 20px 120px;
-  
 }
-  
   .box p{
     font-size:20px;
     font-weight: bold;
-    margin:10px 10px 10px 180px;
+    margin:10px 10px 10px 10px;
   }}
     </style>
 </head>
@@ -412,7 +443,7 @@ height:20px;
         <div class="nav-mid">
           <ul>
             
-           <li class="active"><a href="index2.html">Home</a></li>
+           <li><a href="index2.html">Home</a></li>
            <li><a href="#second-section"><div class="dropdown">Menu
   
             <div id="myDropdown" class="dropdown-content">
@@ -427,26 +458,18 @@ height:20px;
            <li><a href="about.html">About Us</a></li></div>
           
           </div>
-          <div class="nav-right"><button><a href="">Chatbot</a></button></div>
+          <div class="nav-right"><button><a href="chatbot.html">Chatbot</a></button></div>
           </ul>
       </div>
-    </nav><div class="bb"><div class="box"><img src="img/break1.jpg" alt="img"><h4>chillaquiles Verdes</h4><p>&#8377;50</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/break2.jpg" alt="img"><h4>Huevos Rancheros</h4><p>&#8377;60</p><button onclick="myFunction()">Order Now</button></div>
-        <div class="box"><img src="img/break3.jpg" alt="img"><h4>Huevos Motulenos</h4><p>&#8377;50</p><button onclick="myFunction()">Order Now</button></div>
-        
-        <div class="box"><img src="img/break5.jpg" alt="img"><h4 id="small">Baked Eggs</h4><p>&#8377;55</p><button onclick="myFunction()">Order Now</button></div>
-        
-        <div class="box"> <img src="img/break7.jpg" alt="img"><h4 id="big">Mollets with Refried Beans</h4><p>&#8377;50</p><button onclick="myFunction()">Order Now</button></div>
-       
-      
-        <div class="box"><img src="img/break10.jpg" alt="img"><h4 id="big">Leftover Ham and Potato Hash</h4><p>&#8377;50</p><button onclick="myFunction()">Order Now</button></div>
-       
-        <div class="box"><img src="img/break12.jpg" alt="img"><h4>Scrambled Eggs</h4><p>&#8377;40</p><button onclick="myFunction()">Order Now</button></div>
-      
-       
-        <div class="box"><img src="img/break15.jpg" alt="img"><h4>Breakfast Chilli</h4><p>&#8377;40</p><button onclick="myFunction()">Order Now</button></div>
-        
-        <div class="box"><img src="img/break17.jpg" alt="img"><h4 id="small">Omelette</h4><p>&#8377;30</p><button onclick="myFunction()">Order Now</button></div>
+    </nav><div class="bb"><div class="box"><img src="img/break1.jpg" alt="img"><h4>chillaquiles Verdes</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;50</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/break2.jpg" alt="img"><h4>Huevos Rancheros</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;60</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/break3.jpg" alt="img"><h4>Huevos Motulenos</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;50</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/break5.jpg" alt="img"><h4 id="small">Baked Eggs</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;55</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"> <img src="img/break7.jpg" alt="img"><h4>Mollets with Refried Beans</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;50</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/break10.jpg" alt="img"><h4 id="big">Leftover Ham and Potato Hash</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;50</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/break12.jpg" alt="img"><h4>Scrambled Eggs</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;40</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/break15.jpg" alt="img"><h4>Breakfast Chilli</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;40</p></div><button onclick="myFunction()">Order Now</button></div>
+        <div class="box"><img src="img/break17.jpg" alt="img"><h4 id="small">Omelette</h4><div class="images"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><img src="img/star.png" alt="img"><p>&#8377;30</p></div><button onclick="myFunction()">Order Now</button></div>
 </div>
 <script>
   function myFunction(){
