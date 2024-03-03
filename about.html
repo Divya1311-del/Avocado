@@ -7,24 +7,21 @@
 </head><style>
 body{
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  height:500px;
+  height:600px;
   width:100%;
 }
-    .navbar-section{  width:85%;
+.navbar-section{  width:85%;
   height:80px;
   background-color: black;
   display:flex;
   border:1px solid white;
   border-radius:20px;
   margin:20px 20px 20px 100px;
- 
 }
-
 .nav-left{
   height:100px;
   width:200px;
   display: flex;
-  
 }
 .nav-left img{
   height:75px;
@@ -36,7 +33,6 @@ body{
 .nav-mid{
   height:100px;
   width:800px;
-
 }
 .nav-mid ul{
   width:800px;
@@ -46,7 +42,6 @@ body{
   list-style: none;
 }
 .nav-mid li{
- 
   font-weight: bold;
   justify-content: space-around;
 }
@@ -55,17 +50,18 @@ li a{
   font-size:15px;
   text-transform: uppercase;
   text-decoration: none;
-
 }
-
 li a:hover{
   text-decoration: none;
   text-transform: uppercase;
   color:aqua;
-  
-
 }
-
+.nav-right{
+  height:100px;
+  width:300px;
+  justify-content: space-between;
+  margin:0px 20px 20px 70px;
+}
 .nav-right button{
   height:40px;
   width:120px;
@@ -87,15 +83,11 @@ li a:hover{
 .nav-right a{
   text-decoration: none;
   color:red;
-  
-
 }
 .nav-right a:hover{
   text-decoration: none;
   color:black;
   background-color: aqua;
- 
-  
 }
 .dropbtn {
   background-color: #04AA6D;
@@ -118,14 +110,12 @@ li a:hover{
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-
 .dropdown-content a:hover {background-color: black;}
 
 .dropdown:hover .dropdown-content {display: block;}
@@ -139,54 +129,50 @@ li a:hover{
 color:white;
 text-transform: uppercase;
 }
-.about-section{
-    height:719px;
-    width:100%;
-    display: flex;     
+.third-section{
+  margin:50px 0 0 0;
+  padding:0px;
+  height:550px;
+ width:100%;
+ background-color:aliceblue;
+ opacity:0.8;
+ color:black;
+ display: flex;
 }
-.about-left img{
-height:510px;
+.third-left{
+  height:500px;
+  width:700px;
+}
+.text{
+  height:150px;
+  width:120px;
+  display: flex;
+  font-size: 30px;
+  flex-direction: column;
+  margin:20px 0px 0px 30px;
+  color:black;
+  font-weight: bold;
+  margin-top:90px;
+}
+.third-section h3{
+  font-size: 25px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.third-section p{
+  width:600px;
+  height:200px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.third-right{
+height:500px;
 width:650px;
-margin:5rem 2rem 6rem 2rem;
 }
-.about-right h1{
-margin:5.5rem 4rem 0rem 1rem;
-
-}
-.about-right p{
-font-size:25px;
-height:120px;
-width:700px;
-margin:1rem 0 0 1rem;  
-}
-.about-right button{
-margin:0rem 36rem 0rem 1rem;
-}
-.about-right h2{
-margin:10px 0 30px 10px;
-}
-
-.box1{
-height:250px;
-width:240px;
-display: inline-table;
-border:2px solid black;
-margin:5px 5px 5px 5px;
-background-color: white;
-}
-.box1 img{
-margin:1rem 1.5rem 0 3rem;
-height:100px;
-width:100px;
-}
-.box1 h3{
-margin-left:30px;
-color:brown;
-}
-.box1 p{
-height:60px;
-width:200px;
-font-size: 20px;
+.third-right img{
+  height:470px;
+  width:600px;
+  margin:90px 30px 30px 190px;
 }
 @media (max-width:2008px){
 	
@@ -206,11 +192,11 @@ font-size: 20px;
     }
     .navbar-section{
       width:500px;
-      height:230px;
+      height:350px;
       background-color: transparent;
       display:flex;
       flex-direction: column;
-      border:1px solid white;
+      border:1px solid transparent;
       border-radius:0px;
       margin:0px;
     }
@@ -227,19 +213,21 @@ font-size: 20px;
       margin-left:240px;
     }
     .nav-mid{
-      height:50px;
+      height:200px;
       width:380px;
-      margin:10;
+      margin-left:190px;
       padding:0;
     }
     .nav-mid ul{
       width:380px;
       margin:5px;
       display:flex;
-     margin:10px;
+      flex-direction: column;
+     
       list-style: none;
     }
     .nav-mid li{
+      margin:10px;
       font-weight: bold;
       justify-content: space-around;
     }
@@ -259,7 +247,7 @@ font-size: 20px;
       height:100px;
       width:100px;
       justify-content: space-between;
-      margin:10px 20px 20px 270px;
+      margin:10px 20px 20px 220px;
     }
     .nav-item1 .nav-left{
       justify-content: space-around;
@@ -311,7 +299,7 @@ font-size: 20px;
     .dropdown-content {
       display: none;
       position: absolute;
-      background-color: transparent;
+      background-color: gray;
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
@@ -328,62 +316,63 @@ font-size: 20px;
     text-decoration: none;}
     
     .dropdown:hover .dropbtn {background-color: #3e8e41;}
-    .about-section{
-    height:719px;
-    width:500px;
-    display: flex; 
-    flex-direction: column;    
+    .third-section{
+      margin:50px 0 0 0;
+      padding:0px;
+      height:1050px;
+     width:100%;
+     background-color:rgb(215, 224, 148);
+     opacity:0.8;
+     color:black;
+     display: flex;
+     flex-direction: column;
+    }
+    .third-left{
+      height:500px;
+      width:500px;
+    }
+    .text{
+      height:150px;
+      width:120px;
+      display: flex;
+      font-size: 30px;
+      flex-direction: column;
+      margin:20px 0px 0px 30px;
+      color:black;
+      font-weight: bold;
+      margin-top:90px;
+    }/*width:120px;*/
+    .third-section h3{
+      height:50px;
+      width:400px;
+      font-size: 25px;
+      margin-left: 20px;
+      font-weight: bold;
+    }/*height:50px;
+      width:400px;
+    margin-left: 20px;*/
+    .third-section p{
+      width:400px;
+      height:220px;
+      font-size: 20px;
+      margin-left: 10px;
+    }/*width:400px;*/
+    .third-right{
+    height:500px;
+    width:650px;
+    }
+    .third-right img{
+      height:350px;
+      width:350px;
+      margin:90px 30px 30px 20px;
+    }
 }
-.about-left img{
-height:300px;
-width:370px;
-margin:5rem 2rem 1rem 2rem;
-}
-.about-right h1{
-margin:5.5rem 4rem 0rem 1rem;
-
-
-}
-.about-right p{
-font-size:25px;
-height:200px;
-width:400px;
-margin:1rem 0 0 1rem;  
-}
-
-.about-right h2{
-margin:10px 0 20px 10px;
-}
-
-.box1{
-height:250px;
-width:240px;
-display: inline-table;
-border:2px solid black;
-margin:5px 5px 5px 5px;
-background-color: white;
-}
-.box1 img{
-margin:1rem 1.5rem 0 3rem;
-height:100px;
-width:100px;
-}
-.box1 h3{
-margin-left:30px;
-color:brown;
-
-}
-.box1 p{
-height:60px;
-width:200px;
-font-size: 20px;
-}}</style>
+  </style>
 <body>
     <nav class="navbar-section navbar-fixed-top" style="border-width: 2px; border-radius: 35px;">
         <div class="nav-left"><img src="img/logo.png" alt="img"></div>
         <div class="nav-mid">
           <ul>
-            
            <li class="active"><a href="index2.html">Home</a></li>
            <li><a href="#second-section"><div class="dropdown">Menu
     
@@ -392,35 +381,20 @@ font-size: 20px;
               <a href="maincourse.html">MainCourse</a>
               <a href="deserts.html">Deserts</a>
               <a href="drinks.html">Drinks</a>
-              
             </div></li>
            <li><a href="services.html">Services</a></li>
            <li><a href="contact.html">Contact</a></li>
            <li><a href="about.html">About Us</a></li></div>
-           <div class="nav-right"><button><a href="">Chatbot</a></button></div>
-          
-      
+           <div class="nav-right"><button><a href="chatbot.html">Chatbot</a></button></div>
           </ul>
       </div>
     </nav>
-    <div class="about-section" id="about-section">
-        <div class="about-left">
-        <img src="img/slide1.jpg" alt="slide"></div>
-        <div class="about-right">
-        <h1>WE MAKE GOOD AND TASTY FOOD</h1>
-        <p>Mexican dishes are known for their bold and spicy flavors, colorful presentation, and the use of fresh ingredients such as avocado, tomatoes, chilies, and corn.</p>
-        <h2>Why choose us?</h2>
-        <div class="box1"><img src="img/delicious food.png" alt="delicious food">
-            <h3>Delicious food</h3>
-            <p>Food is flavorful,well prepared.</p>
-        </div>
-       
-        <div class="box1"><img src="img/tasty food.png" alt="tasty food">
-            <h3>Tasty food</h3>
-            <p>Tastes great,Yummy.</p></div>
-        <div class="box1"><img src="img/offer.png" alt="offers">
-            <h3>Offers</h3>
-            <p>Offers available.</p></div>
-        </div></div> 
+    <div class="third-section"><div class="third-left"><div class="text">
+  <marquee behavior="slide"  direction="right"  loop="1">FRESH</marquee>
+  <marquee behavior="slide" direction="right" loop="1">TASTY</marquee>
+  <marquee behavior="slide" direction="right"  loop="1">SIMPLE</marquee></div>
+<h3>We’re bringing flavors from the Mexican to your plate</h3>
+<p>Authentic Mexican food is vibrant, delicious, fresh and fun. It is also colourful, spicy and uses an amazing array of chillies, both fresh and dried. Many ingredients are readily available everywhere, such as tomatoes, limes, coriander, red onion, avocado, and corn, and specialty ingredients are becoming more readily available in Australia and elsewhere.</p></div><div class="third-right"><img src="img/resta.jpg" alt="img">
+</div></div>
 </body>
 </html>
