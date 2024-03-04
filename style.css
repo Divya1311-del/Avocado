@@ -249,6 +249,9 @@ color:red;
 .container1:hover img{
   transform: scale(1.1);
 }
+.container1:hover a{
+  text-decoration: none;
+}
 .box{
 display: inline-table;
 height:300px;
@@ -742,6 +745,9 @@ font-weight: bold; margin:50px 20px 20px 40px;
     .container1:hover img{
       transform: scale(1.1);
     }
+	.container1:hover a{
+  text-decoration: none;
+}
     .box{
     display: inline-table;
     height:300px;
