@@ -1,7 +1,7 @@
 # Project Details
 1. Project Demo URL: https://electrostorage2.z13.web.core.windows.net/
 2. Demo Video URL: https://youtu.be/8ErNjxboKGo
-3. GitHub Repository URL: https://github.com/manojbachu/electro.git
+3. GitHub Repository URL: https://github.com/Divya1311-del/Avocado
 4. Industry : Life Style
 # Roles and responsibilities
 1. M.Divya(project management) :Manages the web development project.
