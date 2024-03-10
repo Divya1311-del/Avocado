@@ -14,6 +14,9 @@
         background-repeat: no-repeat;
         background-size: cover;
       }
+     
+      
+ 
  .navbar-section{
   width:85%;
   height:80px;
@@ -22,7 +25,9 @@
   border:1px solid white;
   border-radius:20px;
   margin:20px 20px 20px 100px;
+ 
 }
+
 .nav-left{
   height:100px;
   width:300px;
@@ -58,11 +63,14 @@ li a{
   font-size:15px;
   text-transform: uppercase;
   text-decoration: none;
+
 }
+
 li a:hover{
   text-decoration: none;
   text-transform: uppercase;
   color:aqua;
+
 }
 .nav-right{
   height:100px;
@@ -90,6 +98,8 @@ li a:hover{
   text-decoration: none;
   color:red;
   font-weight: bold;
+  
+
 }
 .nav-right a:hover{
   text-decoration: none;
@@ -147,42 +157,31 @@ text-transform: uppercase;
      margin:40px 100px 0px 100px;
      display: flex;
  }
-
- .name{
-    display: flex;
- }
- .fname input{
-    width:220px;
-     height:40px;
-    display: flex;
-    flex-direction: column;
- }
- .lname input
- {width:220px;
-    height:40px;
-    margin-left:10px;
-    display: flex;
-    flex-direction: column;
- }
+ 
  #name{
      color:rgb(230, 230, 245);
-     font-size: 23px;
+     font-size: 18px;
  }
  input{
      width:455px;
      height:40px;
      border:2px solid white;
      border-radius: 15px;
- }
+     font-size: 18px;
+ }/**/
  .msg{
     width:455px;
      height:80px;
+     font-size: 18px;
+    
  }
 input:hover{
-    background-color:transparent;
-    border:none;
-    border-bottom: 2px solid white;
-    border-radius: 0px;/**/
+background-color:transparent;/**/
+border:none;
+border-bottom: 1px solid white;
+border-radius: 0;
+color:white;
+font-size: 18px;/**/
 }
 #submit{
     height:40px;
@@ -344,6 +343,7 @@ input:hover{
     
     .dropdown:hover .dropbtn {background-color: #3e8e41;}
 .ContactUs{
+
 height:550px;
 width:500px;
 padding-left:25px;
@@ -353,28 +353,12 @@ flex-direction: column;
 background-image:url(img/mobile.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-}
 
-.name{
-display: flex;
-}
-.fname input{
-width:90px;
-height:40px;
-display: flex;
-flex-direction: column;
-}
-.lname input
-{width:90px;
-height:40px;
-margin-left:10px;
-display: flex;
-flex-direction: column;
 }
 #name{
-color:rgb(230, 230, 245);
-font-size: 23px;
-}
+     color:rgb(230, 230, 245);
+     font-size: 18px;
+ }
 input{
 width:300px;
 height:40px;
@@ -386,9 +370,9 @@ width:300px;
 height:80px;
 }
 input:hover{
-background-color:coral ;
+background-color:transparent;/**/
 border:none;
-border-bottom: 1px solid black;
+border-bottom: 1px solid white;
 border-radius: 0;
 }
 #submit{
@@ -397,6 +381,7 @@ width:150px;
 border-radius: 15px;
 color:red;
 font-size:20px;
+
 }
 }
 </style>
@@ -406,37 +391,70 @@ font-size:20px;
         <div class="nav-left"><img src="logo.png" alt="img"></div></div>
         <div class="nav-mid">
           <ul>
+            
            <li class="active"><a href="index2.html">Home</a></li>
            <li><a href="#second-section"><div class="dropdown">Menu
+    
             <div id="myDropdown" class="dropdown-content">
               <a href="breakfast&brunch.html">Breakfast</a>
               <a href="maincourse.html">MainCourse</a>
               <a href="deserts.html">Deserts</a>
               <a href="drinks.html">Drinks</a>
+              
             </div></li>
            <li><a href="services.html">Services</a></li>
            <li><a href="contact.html">Contact</a></li>
            <li><a href="about.html">About Us</a></li></div>
            <div class="nav-right"><button><a href="chatbot.html">Chatbot</a></button></div>
+          
+      
           </ul>
       </div>
     </nav>
-    <form action="" class="ContactUs"><div class="contact-left">
-            <h1 style="color:rgb(251, 243, 243)"; text-align="center";>ContactUs</h1> 
+    <form name="myForm" action="" class="ContactUs"><div class="contact-left">
+            <h1 style="color:rgb(251, 243, 243)"; text-align="center";>ContactUs</h1>
             <div class="name">
             <label for="" id="name">Name</label><br></div>
-            <input type="name" name="" id="forminput" required><br><br>
+            <input type="name" name="" id="name" required><br><br>
             <label for="" id="name">Email</label><br>
-            <input type="email" name="" id="forminput" required>
+            <input type="email" name="" id="email" required>
             <br><br>
             <label for="" id="name">Phone</label><br>
-            <input type="phone" name="" id="phone"  required>
+            <input type="phone" name="" id="phone" required>
             <br><br>
             <label for="" id="name">Write a message</label><br>
-            <input type="write a message" class="msg" id="forminput">
+            <input type="write a message" class="msg" id="msg" required>
             <br><br>
-            <button id="submit">submit</button>
+            <button id="submit" onclick="validateForm()">Send</button>
             </div>
     </form>
+    <script>
+      function validateForm() {
+        let a = document.forms["myForm"]["name"].value;
+        let b = document.forms["myForm"]["email"].value;
+        let c = document.forms["myForm"]["phone"].value;
+        let d = document.forms["myForm"]["msg"].value;
+        if (a == "") {
+          alert("Name must be filled out");
+          return false;
+        }
+        if (b == "") {
+          alert("Email must be filled out");
+          return false;
+        }
+        if (c == "") {
+          alert("Mobile number must be filled out");
+          return false;
+        }
+        if (d == "") {
+          alert("Message must be filled out");
+          return false;
+        }
+
+        alert("Successfully Sent");
+      }
+      </script>
+
 </body>
+
 </html>
