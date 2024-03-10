@@ -758,9 +758,11 @@ margin: 10px 10px 10px 30px;
     </div>
     <div class="fourth-right"><br><div></div>
     <h1>BRING MEXICO TO YOUR TABLE</h1><div class="box2"><h3>Make a reservation</h3>
-    <form action=""><input type="date"  placeholder="20-feb-2024" required><label for="Date"></label>
-    <input type="time"  placeholder="7:00PM" required><label for="Time"></label>
-    <select name="People" id="people" required><option value="1">1 person</option>
+    <form name="myForm" action=""><input type="date" id="date" placeholder="20-feb-2024" required><label for="Date"></label>
+    <input type="time"  placeholder="7:00PM" id="time" required><label for="Time"></label>
+    <select name="People" id="people" required>
+    <option value="">None</option><!---->
+    <option value="1">1 person</option>
     <option value="2">2 people</option>
     <option value="3">3 people</option>
     <option value="4">4 people</option>
@@ -779,13 +781,29 @@ margin: 10px 10px 10px 30px;
     <option value="17">17 people</option>
     <option value="18">18 people</option>
     <option value="19">19 people</option>
-    <option value="20">20 people</option></select></form><button id="button6" onclick="myFunction()">reserve a table</button></div></div>
+    <option value="20">20 people</option></select><button id="button6" onclick="validateForm()">reserve a table</button></form></div></div>
     </div>
+   
     <script>
-      function myFunction(){
+      function validateForm() {
+        let x = document.forms["myForm"]["date"].value;
+        let y = document.forms["myForm"]["time"].value;
+        let z = document.forms["myForm"]["people"].value;
+        if (x == "") {
+          alert("Date must be filled out");
+          return false;
+        }
+        if (y == "") {
+          alert("Time must be filled out");
+          return false;
+        }
+        if (z == "") {
+          alert("Choose people");
+          return false;
+        }
         alert("Successfully reserved a table")
       }
-    </script>
+      </script>
     
   </body>
     </html>
