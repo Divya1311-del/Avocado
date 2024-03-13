@@ -40,4 +40,6 @@ Azure Chatbot :- The Azure AI Language Chatbot is a cutting-edge conversational 
 ![Azure Bot](https://github.com/Divya1311-del/Avocado/assets/161709334/8565c705-710d-462a-905c-f83d9ba1e3b5)
 # Backup Policy
 ![Backup policy](https://github.com/Divya1311-del/Avocado/assets/161709334/62181029-6b0a-47cb-bbf8-853e1a5abff1)
+# Azure Role Assignment
 
+![Azure Role Assignment](https://github.com/Divya1311-del/Avocado/assets/161709334/f9bcbd82-93dd-4ff7-899a-5dd39d749588)
