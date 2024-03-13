@@ -15,7 +15,7 @@
 4. Azure AI services<br>
 5. chatbot <br>
 6. Azure Role Based access Control(RBAC)
-# Problem Statement:
+# Problem Statement
 Whenever we go to any restaurant or hotel we have to book for table and we have to wait in queue for certain period of time. The main motive of our project is to get rid of this queuing system. You can order the food  from our website from your home as per your convenient. It sets up a food menu online and customers can easily place the order as they like. Also, the customers can track their orders. This system also provides a feedback system in which user the food items. Also, If any user or customers wants to contact us.They can recommend mess based on the ratings given by the user. The payment can be made online or cash or pay on delivery. For more secured ordering separate accounts are maintained for each user by providing their credentials. 
 # Project Description:
 The Online Food Ordering System is a web-based platform designed to streamline the process of ordering food from local restaurants and eateries. It aims to provide users with a convenient and efficient way to browse menus, place orders, and make payments online, thereby eliminating the need for traditional phone orders or in-person visits.
