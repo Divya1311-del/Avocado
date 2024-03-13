@@ -9,11 +9,11 @@
 3. S.Harika(Documentation) :Responsible for managing the documentation process.
 4. D.Bikshapathy(Designed project)
 # Azure services used:
-1.Azure blob storage
-2.Storage account
-3.Azure Backup service
-4.Azure AI services
-5.chatbot 
+1.Azure blob storage<br>
+2.Storage account<br>
+3.Azure Backup service<br>
+4.Azure AI services<br>
+5.chatbot <br>
 6.Azure Role Based access Control(RBAC)
 # Problem Statement:
 Whenever we go to any restaurant or hotel we have to book for table and we have to wait in queue for certain period of time. The main motive of our project is to get rid of this queuing system. You can order the food  from our website from your home as per your convenient. It sets up a food menu online and customers can easily place the order as they like. Also, the customers can track their orders. This system also provides a feedback system in which user the food items. Also, If any user or customers wants to contact us.They can recommend mess based on the ratings given by the user. The payment can be made online or cash or pay on delivery. For more secured ordering separate accounts are maintained for each user by providing their credentials. 
