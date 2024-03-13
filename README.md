@@ -8,7 +8,7 @@
 2. B.Bhanu Vijaya (Deployment) :Deployment and maintenance of project infrastructure.
 3. S.Harika(Images,logos and chat bot questions):Responsible for image searching, logo creation and chat bot questions.
 4. D.Bikshapathy(Documentation) :Responsible for managing the documentation process.
-# Azure services used:
+# Azure services used
 1. Azure blob storage<br>
 2. Storage account<br>
 3. Azure Backup service<br>
