@@ -2,9 +2,9 @@
 1. Project Demo URL: https://avocadoo1212.z13.web.core.windows.net/
 2. Demo Video URL: https://youtu.be/8ErNjxboKGo
 3. GitHub Repository URL: https://github.com/Divya1311-del/Avocado
-4. Industry : Life Style
+4. Industry : Life Style-Restaurant
 # Roles and responsibilities
-1. M.Divya(project management) :Manages the web development project.
+1. M.Divya(project management) :Managed the web development project.
 2. B.Bhanu Vijaya (Deployment) :Deployment and maintenance of project infrastructure.
 3. S.Harika(Documentation) :Responsible for managing the documentation process.
 4. D.Bikshapathy(Designed project)
