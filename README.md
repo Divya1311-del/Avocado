@@ -1,6 +1,6 @@
 # Project Details
 1. Project Demo URL: https://avocadoo1212.z13.web.core.windows.net/
-2. Demo Video URL: https://youtu.be/8ErNjxboKGo
+2. Demo Video URL: https://www.youtube.com/watch?v=ynpfN4e4vy4
 3. GitHub Repository URL: https://github.com/Divya1311-del/Avocado
 4. Industry : Life Style-Restaurant
 # Roles and responsibilities
