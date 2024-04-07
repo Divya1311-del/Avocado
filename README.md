@@ -31,29 +31,53 @@ Azure Blob Storage: Azure Blob Storage is Microsoft's scalable object storage so
 Azure Chatbot :- The Azure AI Language Chatbot is a cutting-edge conversational agent powered by Microsoft's Azure platform. Leveraging advanced natural language processing capabilities, it facilitates dynamic and context-aware interactions. This intelligent chatbot employs machine learning algorithms to comprehend user queries, providing personalized responses and assistance across diverse domains. Seamlessly integrating with Azure services, it ensures scalability and reliability.
 # Screenshots
 # Storage Account
+![storage account](https://github.com/Divya1311-del/Avocado/assets/142675512/f7239004-a799-407f-b42c-787bfb79a13e)
+
+# Uploading Blob files
+![Uploading blob files](https://github.com/Divya1311-del/Avocado/assets/142675512/d27c24c6-52fe-4fcc-9a69-62d26581507b)
 
 
-![storage account](https://github.com/Divya1311-del/Avocado/assets/161709334/497ee0ef-8c03-4972-8357-7ede90126bee)
 # Backup Vault
+![Backup Vault](https://github.com/Divya1311-del/Avocado/assets/142675512/3f145fd6-1a02-4f39-b63e-bdabe80e2e7d)
 
-![Backup vault](https://github.com/Divya1311-del/Avocado/assets/161709334/d673eef1-f7ad-4335-a642-f875345dbdaa)
 # Azure Bot
 
+![Azure Bot](https://github.com/Divya1311-del/Avocado/assets/142675512/1ae9b49d-6cd7-45a3-b7b3-6f0462d3193a)
 
-![Azure Bot](https://github.com/Divya1311-del/Avocado/assets/161709334/8565c705-710d-462a-905c-f83d9ba1e3b5)
+
 # Backup Policy
-![Backup policy](https://github.com/Divya1311-del/Avocado/assets/161709334/62181029-6b0a-47cb-bbf8-853e1a5abff1)
+![Backup Policy](https://github.com/Divya1311-del/Avocado/assets/142675512/8e4bfac9-3dd0-4b86-b3c7-2da37b2524e5)
+
+# Azure Language Service
+![Azure Language Service](https://github.com/Divya1311-del/Avocado/assets/142675512/bc7c4435-4c00-4eee-93a2-b859596c6fc0)
+
+# Uploading Bot files to Custom question answering
+![Uploading Bot files to Custom question and answering](https://github.com/Divya1311-del/Avocado/assets/142675512/2fc9047d-c5ee-402e-bd3a-a13f78b66247)
+
+# Endpoints for Static Website
+![Endpoints for static website](https://github.com/Divya1311-del/Avocado/assets/142675512/69c2330a-36e5-4862-803c-41fc149a8f39)
+
 # Azure Role Assignment
+![Azure Role Assignment](https://github.com/Divya1311-del/Avocado/assets/142675512/31c288f6-ed83-4288-b3da-ea78c1c59dba)
 
-![Azure Role Assignment](https://github.com/Divya1311-del/Avocado/assets/161709334/f9bcbd82-93dd-4ff7-899a-5dd39d749588)
-# Website View
+# Website HomePage
+![Website Homepage](https://github.com/Divya1311-del/Avocado/assets/142675512/c8cd62bb-4925-443b-9e44-a3a05bad8e79)
 
-![Website View](https://github.com/Divya1311-del/Avocado/assets/161709334/80b18c06-ebf0-445b-940d-fbbe764a12c3)
+# Website Breakfast&Brunch Page
+![Website Breakfast Brunch Page](https://github.com/Divya1311-del/Avocado/assets/142675512/e2678a09-c4c8-4fcd-a46c-8c1fa156d8af)
+
+# Website Services Page
+![Website Services Page](https://github.com/Divya1311-del/Avocado/assets/142675512/f5d77df2-a5b3-49e2-992a-52cdc61aabb4)
+
+# Website ContactUs Page
+![Website ContactUs Page](https://github.com/Divya1311-del/Avocado/assets/142675512/0eefa6b3-2962-4009-9ae2-00013d50a5c8)
+# Website AboutUs Page
+![Website ContactUs Page](https://github.com/Divya1311-del/Avocado/assets/142675512/7fa6aee2-257d-4d53-8a52-55902fc818e3)
+
 # Bot Response
-![Bot Response](https://github.com/Divya1311-del/Avocado/assets/161709334/5c2e679d-2c9a-46ff-a58c-2a861e293316)
-# Resource Visualizer
-![resource visualizer](https://github.com/Divya1311-del/Avocado/assets/161709334/76ab847e-0f95-4985-a0ec-6d7ca17abf25)
-# Storage Account
+![Bot Response](https://github.com/Divya1311-del/Avocado/assets/142675512/4d8e6435-598c-46b2-b9b5-78db3baed01e)
 
-![Screenshot (235)](https://github.com/Divya1311-del/Avocado/assets/142675512/ea9ab15d-cf77-469f-9556-0b5f9c70ca6f)
+# Resource Visualizer
+![Resource Visualizer](https://github.com/Divya1311-del/Avocado/assets/142675512/12272029-cbc8-4cd2-b273-2e9611ac9955)
+
 
