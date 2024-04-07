@@ -31,7 +31,8 @@ Azure Blob Storage: Azure Blob Storage is Microsoft's scalable object storage so
 Azure Chatbot :- The Azure AI Language Chatbot is a cutting-edge conversational agent powered by Microsoft's Azure platform. Leveraging advanced natural language processing capabilities, it facilitates dynamic and context-aware interactions. This intelligent chatbot employs machine learning algorithms to comprehend user queries, providing personalized responses and assistance across diverse domains. Seamlessly integrating with Azure services, it ensures scalability and reliability.
 # Screenshots
 # Storage Account
-![storage account](https://github.com/Divya1311-del/Avocado/assets/142675512/f7239004-a799-407f-b42c-787bfb79a13e)
+
+![storage account](https://github.com/Divya1311-del/Avocado/assets/142675512/1cb6e57f-bf8e-4d17-98a0-6aeb61fa9a1b)
 
 # Uploading Blob files
 ![Uploading blob files](https://github.com/Divya1311-del/Avocado/assets/142675512/d27c24c6-52fe-4fcc-9a69-62d26581507b)
